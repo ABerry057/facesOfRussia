@@ -9,7 +9,9 @@ from gutenberg.query import get_metadata
 
 # run the following ONLY ONCE
 # from gutenberg.acquire import get_metadata_cache
+# print("Defining cache...")
 # cache = get_metadata_cache()
+# print("Populating cache...")
 # cache.populate()
 # print("Successful cache build!")
 
@@ -24,10 +26,10 @@ text_IDs_p01 = [21889,15269,58794,49782,23094,27484,51410,33005,
 
 texts = {}
 for ID in tqdm(text_IDs_p01):
-    # tt = get_metadata('title', ID)
-    # ta = get_metadata('author', ID)
-    # td =  "YEAR"
+    tt = next(iter(get_metadata('title', ID)))
+    ta = next(iter(get_metadata('author', ID)))
+    td =  "YEAR"
     tc = strip_headers(load_etext(ID)).strip()
-    # texts[ID] = {"title": tt, "author": ta, "date": td, "content": tc}
-    texts[ID] = {"content": tc}
+    texts[ID] = {"title": tt, "author": ta, "date": td, "content": tc}
+    # texts[ID] = {"content": tc}
 
