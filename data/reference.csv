@@ -1,119 +1,110 @@
-ID,title,author,date
-21889,Peter the Great,"Abbott, Jacob",YEAR
-15269,The Empire of Russia: From the Remotest Periods to the Present Time,"Abbott, John S. C. (John Stevens Cabot)",YEAR
+ID,title,author,date,validity
+21889,Peter the Great,"Abbott, Jacob",1900,TRUE
+15269,The Empire of Russia: From the Remotest Periods to the Present Time,"Abbott, John S. C. (John Stevens Cabot)",1859,TRUE
 58794,"The Englishwoman in Russia
-Impressions of the Society and Manners of the Russians at Home",A lady,YEAR
-49782,The Czar: A tale of the Time of the First Napoleon,"Alcock, Deborah",YEAR
+Impressions of the Society and Manners of the Russians at Home",A lady,1854,TRUE
+49782,The Czar: A tale of the Time of the First Napoleon,"Alcock, Deborah",1895,TRUE
 23094,"The Boy Nihilist
-or, Young America in Russia","Arnold, Allan",YEAR
-27484,Journal of a Visit to Constantinople and Some of the Greek Islands in the Spring and Summer of 1833,"Auldjo, John",YEAR
-51410,Dr. Elsie Inglis,"Balfour, Frances, Lady",YEAR
-33005,An Outline of Russian Literature,"Baring, Maurice",YEAR
+or, Young America in Russia","Arnold, Allan",1909,TRUE
+27484,Journal of a Visit to Constantinople and Some of the Greek Islands in the Spring and Summer of 1833,"Auldjo, John",1835,TRUE
+51410,Dr. Elsie Inglis,"Balfour, Frances, Lady",1916,TRUE
+33005,An Outline of Russian Literature,"Baring, Maurice",1914,TRUE
 21216,"Catharine's Peril, or The Little Russian Girl Lost in a Forest
-And Other Stories","Bewsher, M. E., Mrs.",YEAR
-16544,The Boy Scouts In Russia,"Blaine, John",YEAR
-12458,"The Talisman, from the Russian of Alexander Pushkin; With Other Pieces","Borrow, George",YEAR
+And Other Stories","Bewsher, M. E., Mrs.",1881,TRUE
+16544,The Boy Scouts In Russia,"Blaine, John",1916,TRUE
+12458,"The Talisman, from the Russian of Alexander Pushkin; With Other Pieces","Borrow, George",1835,TRUE
 10713,"The Bullitt Mission to Russia
-Testimony before the Committee on Foreign Relations, United States Senate, of William C. Bullitt","Bullitt, William C. (William Christian)",YEAR
-33303,Russian Life To-day,"Bury, Herbert, Bp.",YEAR
-2803,The Rise of David Levinsky,"Cahan, Abraham",YEAR
-39166,The White Terror and The Red: A Novel of Revolutionary Russia,"Cahan, Abraham",YEAR
-24181,Lorraine: A Romance,"Chambers, Robert W. (Robert William)",YEAR
-28295,The Maids of Paradise,"Chambers, Robert W. (Robert William)",YEAR
-2480,Under Western Eyes,"Conrad, Joseph",YEAR
+Testimony before the Committee on Foreign Relations, United States Senate, of William C. Bullitt","Bullitt, William C. (William Christian)",1919,TRUE
+33303,Russian Life To-day,"Bury, Herbert, Bp.",1915,TRUE
+2803,The Rise of David Levinsky,"Cahan, Abraham",1917,TRUE
+39166,The White Terror and The Red: A Novel of Revolutionary Russia,"Cahan, Abraham",1905,TRUE
+24181,Lorraine: A Romance,"Chambers, Robert W. (Robert William)",1917,TRUE
+28295,The Maids of Paradise,"Chambers, Robert W. (Robert William)",1903,TRUE
+2480,Under Western Eyes,"Conrad, Joseph",1911,TRUE
 49637,"Account of the Russian Discoveries between Asia and America
-To which are added, the conquest of Siberia, and the history of the transactions and commerce between Russia and China","Coxe, William",YEAR
-36945,A Tatter of Scarlet: Adventurous Episodes of the Commune in the Midi 1871,"Crockett, S. R. (Samuel Rutherford)",YEAR
-50011,"Myths and Folk-tales of the Russians, Western Slavs, and Magyars","Curtin, Jeremiah",YEAR
-60432,The Real Tsaritsa,"Den, Lili",YEAR
-26007,From Paris to New York by Land,"De Windt, Harry",YEAR
-48992,From Pekin to Calais by Land,"De Windt, Harry",YEAR
-51117,Free Russia,"Dixon, William Hepworth",YEAR
-61557,The Red Reign: The True Story of an Adventurous Year in Russia,"Durland, Kellogg",YEAR
-60770,Royal Romances of To-day,"Durland, Kellogg",YEAR
-42132,Through Scandinavia to Moscow,"Edwards, William Seymour",YEAR
-51993,"The Mentor: Russian Music, Vol. 4, Num. 18, Serial No. 118, November 1, 1916","Finck, Henry T.",YEAR
-57185,Napoleon's Russian Campaign of 1812,"Foord, Edward (Edward A.)",YEAR
-40666,"Missing at Marshlands
-Arden Blake Mystery Series #3","Garis, Cleo F.",YEAR
-46510,The Story of Moscow,"Gerrare, Wirt",YEAR
-5310,The Point of View,"Glyn, Elinor",YEAR
-11980,A Tramp's Sketches,"Graham, Stephen",YEAR
+To which are added, the conquest of Siberia, and the history of the transactions and commerce between Russia and China","Coxe, William",1803,TRUE
+50011,"Myths and Folk-tales of the Russians, Western Slavs, and Magyars","Curtin, Jeremiah",1890,TRUE
+60432,The Real Tsaritsa,"Den, Lili",1922,TRUE
+26007,From Paris to New York by Land,"De Windt, Harry",1903,TRUE
+48992,From Pekin to Calais by Land,"De Windt, Harry",1889,TRUE
+51117,Free Russia,"Dixon, William Hepworth",1870,TRUE
+61557,The Red Reign: The True Story of an Adventurous Year in Russia,"Durland, Kellogg",1907,TRUE
+60770,Royal Romances of To-day,"Durland, Kellogg",1911,TRUE
+42132,Through Scandinavia to Moscow,"Edwards, William Seymour",1906,TRUE
+51993,"The Mentor: Russian Music, Vol. 4, Num. 18, Serial No. 118, November 1, 1916","Finck, Henry T.",1916,TRUE
+57185,Napoleon's Russian Campaign of 1812,"Foord, Edward (Edward A.)",1914,TRUE
+46510,The Story of Moscow,"Gerrare, Wirt",1900,TRUE
+5310,The Point of View,"Glyn, Elinor",1913,TRUE
+11980,A Tramp's Sketches,"Graham, Stephen",1913,TRUE
 58932,"A Vagabond in the Caucasus
-With Some Notes of His Experiences Among the Russians","Graham, Stephen",YEAR
-27103,The Little Russian Servant,"Gréville, Henry",YEAR
-5293,Tales and Novels of J. de La Fontaine — Volume 19,"La Fontaine, Jean de",YEAR
-46019,Capitals of the Northlands: Tales of Ten Cities,"Hannah, Ian C.",YEAR
-18165,Russian Rambles,"Hapgood, Isabel Florence",YEAR
-26090,Condemned as a Nihilist: A Story of Escape from Siberia,"Henty, G. A. (George Alfred)",YEAR
-30457,Through Russian Snows: A Story of Napoleon's Retreat from Moscow,"Henty, G. A. (George Alfred)",YEAR
-19714,With Frederick the Great: A Story of the Seven Years' War,"Henty, G. A. (George Alfred)",YEAR
-22060,"The Young Franc Tireurs, and Their Adventures in the Franco-Prussian War","Henty, G. A. (George Alfred)",YEAR
-27366,A Journey in Russia in 1858,"Heywood, Robert",YEAR
-54823,"The Campaign of Sedan: The Downfall of the Second Empire, August-September 1870","Hooper, George",YEAR
-48737,Turkish Harems & Circassian Homes,"Hope, Andrée",YEAR
-50023,The Economics of the Russian Village,"Hourwich, Isaac A. (Isaac Aaronovich)",YEAR
-31860,The Red Symbol,"Ironside, John",YEAR
+With Some Notes of His Experiences Among the Russians","Graham, Stephen",1915,TRUE
+27103,The Little Russian Servant,"Gréville, Henry",1899,TRUE
+46019,Capitals of the Northlands: Tales of Ten Cities,"Hannah, Ian C.",1914,TRUE
+18165,Russian Rambles,"Hapgood, Isabel Florence",1895,TRUE
+26090,Condemned as a Nihilist: A Story of Escape from Siberia,"Henty, G. A. (George Alfred)",1892,TRUE
+30457,Through Russian Snows: A Story of Napoleon's Retreat from Moscow,"Henty, G. A. (George Alfred)",1895,TRUE
+27366,A Journey in Russia in 1858,"Heywood, Robert",1918,TRUE
+48737,Turkish Harems & Circassian Homes,"Hope, Andrée",1871,TRUE
+50023,The Economics of the Russian Village,"Hourwich, Isaac A. (Isaac Aaronovich)",1892,TRUE
+31860,The Red Symbol,"Ironside, John",1910,TRUE
 12328,"Tent Life in Siberia
-A New Account of an Old Undertaking; Adventures among the Koraks and Other Tribes In Kamchatka and Northern Asia","Kennan, George",YEAR
-21461,"Fred Markham in Russia; Or, The Boy Travellers in the Land of the Czar","Kingston, William Henry Giles",YEAR
+A New Account of an Old Undertaking; Adventures among the Koraks and Other Tribes In Kamchatka and Northern Asia","Kennan, George",1910,TRUE
+21461,"Fred Markham in Russia; Or, The Boy Travellers in the Land of the Czar","Kingston, William Henry Giles",1870,TRUE
 60086,"The Boy Travellers in The Russian Empire
-Adventures of Two Youths in a Journey in European and Asiatic Russia, with Accounts of a Tour across Siberia, Voyages on the Amoor, Volga, and Other Rivers, a Visit to Central Asia, Travels among the Exiles, and a Historical Sketch of the Empire from Its Foundation to the Present Time","Knox, Thomas Wallace",YEAR
-13806,"Overland through Asia; Pictures of Siberian, Chinese, and Tartar Life","Knox, Thomas Wallace",YEAR
+Adventures of Two Youths in a Journey in European and Asiatic Russia, with Accounts of a Tour across Siberia, Voyages on the Amoor, Volga, and Other Rivers, a Visit to Central Asia, Travels among the Exiles, and a Historical Sketch of the Empire from Its Foundation to the Present Time","Knox, Thomas Wallace",1887,TRUE
+13806,"Overland through Asia; Pictures of Siberian, Chinese, and Tartar Life","Knox, Thomas Wallace",1870,TRUE
 60791,"The War with Russia; Its Origin and Cause
-A Reply to the Letter of J. Bright, Esq., M.P.","Langford, John Alfred",YEAR
+A Reply to the Letter of J. Bright, Esq., M.P.","Langford, John Alfred",1855,TRUE
 41091,"The Price of Power
-Being Chapters from the Secret History of the Imperial Court of Russia","Le Queux, William",YEAR
-38357,By Right of Sword,"Marchmont, Arthur W.",YEAR
-40907,A Dash for a Throne,"Marchmont, Arthur W.",YEAR
-32370,Secret Diplomatic History of The Eighteenth Century,"Marx, Karl",YEAR
-59095,One Year at the Russian Court: 1904-1905,"Maud, Renée Gaudin de Villaine",YEAR
-56611,The Romance of the Romanoffs,"McCabe, Joseph",YEAR
+Being Chapters from the Secret History of the Imperial Court of Russia","Le Queux, William",1913,TRUE
+38357,By Right of Sword,"Marchmont, Arthur W.",1897,TRUE
+40907,A Dash for a Throne,"Marchmont, Arthur W.",1899,TRUE
+32370,Secret Diplomatic History of The Eighteenth Century,"Marx, Karl",1899,TRUE
+59095,One Year at the Russian Court: 1904-1905,"Maud, Renée Gaudin de Villaine",1918,TRUE
+56611,The Romance of the Romanoffs,"McCabe, Joseph",1917,TRUE
 48373,"From Paris to Pekin over Siberian Snows
-A Narrative of a Journey by Sledge over the Snows of European Russia and Siberia, by Caravan Through Mongolia, Across the Gobi Desert and the Great Wall, and by Mule Palanquin Through China to Pekin","Meignan, Victor",YEAR
-61235,Peter and Alexis: The Romance of Peter the Great,"Merezhkovsky, Dmitry Sergeyevich",YEAR
-8158,Barlasch of the Guard,"Merriman, Henry Seton",YEAR
-8873,The Isle of Unrest,"Merriman, Henry Seton",YEAR
-10132,The Sowers,"Merriman, Henry Seton",YEAR
+A Narrative of a Journey by Sledge over the Snows of European Russia and Siberia, by Caravan Through Mongolia, Across the Gobi Desert and the Great Wall, and by Mule Palanquin Through China to Pekin","Meignan, Victor",1885,TRUE
+61235,Peter and Alexis: The Romance of Peter the Great,"Merezhkovsky, Dmitry Sergeyevich",1905,TRUE
+8158,Barlasch of the Guard,"Merriman, Henry Seton",1903,TRUE
+8873,The Isle of Unrest,"Merriman, Henry Seton",1900,TRUE
+10132,The Sowers,"Merriman, Henry Seton",1896,TRUE
 45167,"The Siberian Overland Route from Peking to Petersburg,
-Through the Deserts and Steppes of Mongolia, Tartary, &c.","Michie, Alexander",YEAR
-26390,The Two Great Retreats of History,"Grote, George",YEAR
+Through the Deserts and Steppes of Mongolia, Tartary, &c.","Michie, Alexander",1864,TRUE
+26390,The Two Great Retreats of History,"Grote, George",1889,TRUE
 22523,"The History of the American Expedition Fighting the Bolsheviki
-Campaigning in North Russia 1918-1919","Mead, Harry H.",YEAR
-25625,"Historic Tales: The Romance of Reality. Vol. 08 (of 15), Russian","Morris, Charles",YEAR
-22655,"Nelka
-Mrs. Helen de Smirnoff Moukhanoff, 1878-1963, a Biographical Sketch","Moukhanoff, Michael",YEAR
-55244,The Prophet's Mantle,"Bland, Hubert",YEAR
-46587,The Russian Opera,"Newmarch, Rosa",YEAR
-54507,Russian Memories,"Novikova, Olga Alekseevna",YEAR
-54059,"Northern Lands; Or, Young America in Russia and Prussia","Optic, Oliver",YEAR
-31554,"Lectures on Russian Literature: Pushkin, Gogol, Turgenef, Tolstoy","Panin, Ivan",YEAR
-16930,A Short History of Russia,"Parmele, Mary Platt",YEAR
+Campaigning in North Russia 1918-1919","Mead, Harry H.",1920,TRUE
+25625,"Historic Tales: The Romance of Reality. Vol. 08 (of 15), Russian","Morris, Charles",1898,TRUE
+55244,The Prophet's Mantle,"Bland, Hubert",1889,TRUE
+46587,The Russian Opera,"Newmarch, Rosa",1914,TRUE
+54507,Russian Memories,"Novikova, Olga Alekseevna",1916,TRUE
+54059,"Northern Lands; Or, Young America in Russia and Prussia","Optic, Oliver",1872,TRUE
+31554,"Lectures on Russian Literature: Pushkin, Gogol, Turgenef, Tolstoy","Panin, Ivan",1889,TRUE
+16930,A Short History of Russia,"Parmele, Mary Platt",1910,TRUE
 60258,"New lands within the Arctic circle
-Narrative of the discoveries of the Austrian ship ""Tegetthoff"" in the years 1872-1874","Payer, Julius",YEAR
-46023,The Garden of Swords,"Pemberton, Max",YEAR
-35540,The Great White Army,"Pemberton, Max",YEAR
-5996,Essays on Russian Novelists,"Phelps, William Lyon",YEAR
-24981,Trapped in 'Black Russia': Letters June-November 1915,"Pierce, Ruth",YEAR
-22004,The Genius,"Potter, Margaret Horton",YEAR
-53108,Confessions of the Czarina,"Radziwill, Catherine, Princess",YEAR
-16981,Old Peter's Russian Tales,"Ransome, Arthur",YEAR
+Narrative of the discoveries of the Austrian ship ""Tegetthoff"" in the years 1872-1874","Payer, Julius",1876,TRUE
+46023,The Garden of Swords,"Pemberton, Max",1899,TRUE
+35540,The Great White Army,"Pemberton, Max",1916,TRUE
+5996,Essays on Russian Novelists,"Phelps, William Lyon",1911,TRUE
+24981,Trapped in 'Black Russia': Letters June-November 1915,"Pierce, Ruth",1918,TRUE
+22004,The Genius,"Potter, Margaret Horton",1906,TRUE
+53108,Confessions of the Czarina,"Radziwill, Catherine, Princess",1918,TRUE
+16981,Old Peter's Russian Tales,"Ransome, Arthur",1917,TRUE
 49278,"The Soldier and Death
-A Russian Folk Tale Told in English by Arthur Ransome","Ransome, Arthur",YEAR
-27733,Through Siberia and Manchuria By Rail,"Ready, Oliver George",YEAR
-7320,Afghanistan and the Anglo-Russian Dispute,"Rodenbough, Theophilus F. (Theophilus Francis)",YEAR
-7973,"Napoleon's Campaign in Russia, Anno 1812; Medico-Historical","Rose, Achilles",YEAR
+A Russian Folk Tale Told in English by Arthur Ransome","Ransome, Arthur",1920,TRUE
+27733,Through Siberia and Manchuria By Rail,"Ready, Oliver George",1904,TRUE
+7320,Afghanistan and the Anglo-Russian Dispute,"Rodenbough, Theophilus F. (Theophilus Francis)",1885,TRUE
+7973,"Napoleon's Campaign in Russia, Anno 1812; Medico-Historical","Rose, Achilles",1913,TRUE
 18643,"The First Landing on Wrangel Island
-With Some Remarks on the Northern Inhabitants","Rosse, Irving C. (Irving Collins)",YEAR
-45099,The Rise of the Russian Empire,Saki,YEAR
-37723,For Sceptre and Crown: A Romance of the Present Time. Vol. 1 (of 2),"Samarow, Gregor",YEAR
-37724,For Sceptre and Crown: A Romance of the Present Time. Vol. 2 (of 2),"Samarow, Gregor",YEAR
-3488,Great Catherine (Whom Glory Still Adores),"Shaw, Bernard",YEAR
-19534,"Russia, as Seen and Described by Famous Writers","Shaw, Bernard",YEAR
+With Some Remarks on the Northern Inhabitants","Rosse, Irving C. (Irving Collins)",1883,TRUE
+45099,The Rise of the Russian Empire,Saki,1900,TRUE
+37723,For Sceptre and Crown: A Romance of the Present Time. Vol. 1 (of 2),"Samarow, Gregor",1875,TRUE
+37724,For Sceptre and Crown: A Romance of the Present Time. Vol. 2 (of 2),"Samarow, Gregor",1875,TRUE
+3488,Great Catherine (Whom Glory Still Adores),"Shaw, Bernard",1913,TRUE
+19534,"Russia, as Seen and Described by Famous Writers","Shaw, Bernard",1904,TRUE
 57750,"The Heart of Asia
-A history of Russian Turkestan and the Central Asian Khanates from the earliest times","Ross, E. Denison (Edward Denison), Sir",YEAR
+A history of Russian Turkestan and the Central Asian Khanates from the earliest times","Ross, E. Denison (Edward Denison), Sir",1899,TRUE
 51594,"""The Greatest Failure in All History""
-A Critical Examination of the Actual Workings of Bolshevism in Russia","Spargo, John",YEAR
-37889,"Incidents of Travel in Greece, Turkey, Russia, and Poland, Vol. 1 (of 2)","Stephens, John L.",YEAR
-37947,"Incidents of Travel in Greece, Turkey, Russia, and Poland, Vol. 2 (of 2)","Stephens, John L.",YEAR
-45299,The Russian Ballet,"Terry, Ellen",YEAR
+A Critical Examination of the Actual Workings of Bolshevism in Russia","Spargo, John",1920,TRUE
+37889,"Incidents of Travel in Greece, Turkey, Russia, and Poland, Vol. 1 (of 2)","Stephens, John L.",1853,TRUE
+37947,"Incidents of Travel in Greece, Turkey, Russia, and Poland, Vol. 2 (of 2)","Stephens, John L.",1853,TRUE
+45299,The Russian Ballet,"Terry, Ellen",1913,TRUE
