@@ -15,16 +15,17 @@ from nltk.corpus import stopwords
 
 def gc():
     nltk.download('stopwords')  # run once
-
+    
     stop_words = stopwords.words('english')
-    stop_words += ['wa'] # wa is included for all topics otherwise
+    stop_words += ['wa', 'ha'] #  wa and ha are included for all topics otherwise
     parent_dir = Path(__file__).parent.parent
     txt_dir = f'{parent_dir}/data/raw_texts'
-
+    
     lemmatizer = WordNetLemmatizer()
-
+    
     pro_text_list = []
-    files = sorted(os.listdir(txt_dir))
+    # sort in ascending order by ID
+    files = sorted(os.listdir(txt_dir), key=lambda x:int(x.replace(".txt", "")))
     for file in tqdm(files, desc="Load and preprocess"):
         with open(f'{txt_dir}/{file}', 'r') as raw:
             text = raw.read()
@@ -35,7 +36,11 @@ def gc():
     # # create dictionary from preprocessed text
     dictionary = corpora.Dictionary(pro_text_list)
     bow_corpus = [dictionary.doc2bow(text) for text in pro_text_list]
-    IDs = [file.replace('.txt', '') for file in files]
+    IDs = [int(file.replace('.txt', '')) for file in files]
     mallet_pack = (dictionary, bow_corpus, IDs)
     # # save BoW corpus as pickle
     pickle.dump(mallet_pack, open(f'{parent_dir}/data/corpus.pickle', "wb"))
+    
+if __name__ == "__main__":
+    gc()
+    

@@ -9,23 +9,23 @@ from gensim.models.wrappers import LdaMallet
 from pathlib import Path
 
 
-def model(n_topics=8, n_iterations=3000):
+def model_topics(n_topics=8, n_iterations=3000):
     parent_dir = Path(__file__).parent.parent
     seed = 1921
-
+    
     dictionary, bow_corpus, IDs = pickle.load(open(f'{parent_dir}/data/corpus.pickle', 'rb'))
     path_to_mallet_binary = f'{parent_dir}/src//mallet-2.0.8/bin/mallet'
-
+    
     model = LdaMallet(path_to_mallet_binary,
                       corpus=bow_corpus,
-                      num_topics=n_topics,
+                      num_topics=8,
                       id2word=dictionary,
-                      iterations=n_iterations,
+                      iterations=300,
                       random_seed=seed)
-
+    
     def doc_by_topic(vector):
         return sorted(vector, key=lambda x: x[1], reverse=True)
-
+    
     topics_table = {}
     docs = list(model.load_document_topics())
     for i in tqdm(range(len(IDs)), desc='Reading results into dataframe'):
@@ -36,25 +36,26 @@ def model(n_topics=8, n_iterations=3000):
     reference = pd.read_csv(f'{parent_dir}/data/reference.csv')
     title_dict = OrderedDict()
     for ID in tqdm(reference['ID'], desc='Getting titles from ID'):
-        title_dict[str(ID)] = reference[reference['ID'] == ID]['title'].values[0]
+        title_dict[ID] = reference[reference['ID'] == ID]['title'].values[0]
         
     year_dict = OrderedDict()
     for ID in tqdm(reference['ID'], desc='Getting years from ID'):
-        year_dict[str(ID)] = reference[reference['ID'] == ID]['date'].values[0]
-
-    # column_names = ['ID'] + [f'topic_{i}' for i in range(0,num_topics)]
-    column_names = [f'topic_{i}' for i in range(0, n_topics)]
+        year_dict[ID] = reference[reference['ID'] == ID]['date'].values[0]
+    
+    column_names = [f'topic_{i}' for i in range(0,n_topics)]
     results = pd.DataFrame.from_dict(topics_table,
                                      orient='index',
                                      columns=column_names)
     results.index.name = "ID"
     results.insert(0, "title", title_dict.values())  # add titles
-    results.insert(1, "year", year_dict.values())  # add years
-
+    results.insert(1, "ID", IDs) # add ids
+    results.insert(2, "year", year_dict.values())  # add years
+    
     # save results to file
     results.to_csv(f'{parent_dir}/data/topics.csv', index=False)
-
+    
     # save topic words to file
     topics = model.show_topics(num_topics=-1)
     with open(f'{parent_dir}/data/topics.txt', 'a') as output:
         output.writelines(str(line)+'\n' for line in topics)
+

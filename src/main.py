@@ -5,7 +5,7 @@ Driver script for entire process.
 from gatherTexts import gt
 from genCorpus import gc
 from util_year import uy
-from modeling import model
+from modeling import model_topics
 from visualization import vis
 from tqdm import tqdm
 
@@ -23,8 +23,8 @@ def run_program():
             # year utility script
             uy()
         elif i == 3:
-            # modeling, n_topics is 8 by default, n_iterations is 3000 by default
-            model()
+            # modeling, n_topics is 8 by default, n_iterations is 300 by default
+            model_topics()
         elif i == 4:
             # visualization
             vis()
