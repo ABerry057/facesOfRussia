@@ -11,11 +11,12 @@ from tqdm import tqdm
 
 
 def run_program():
+    era = input("Select '19th' or '20th' as era for analysis: ")
     for i in tqdm(range(5), desc="Generating and visualizing topics..."):
         # this otherwise unnecessary for-loop enables the progress bar
         if i == 0:
             # gather texts
-            gt()
+            gt(era)
         elif i == 1:
             # generate corpus
             gc()

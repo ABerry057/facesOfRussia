@@ -12,7 +12,7 @@ def vis():
     parent_dir = Path(__file__).parent.parent
     figure_dir = f'{parent_dir}/figures'
     topics_df = pd.read_csv(f'{parent_dir}/data/topics.csv')
-    num_topics = len(topics_df.columns) - 2
+    num_topics = len(topics_df.columns) - 3
     topics = [f'topic_{i}' for i in range(num_topics)]
     
     # join plots for topic frequency and time

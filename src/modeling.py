@@ -9,7 +9,7 @@ from gensim.models.wrappers import LdaMallet
 from pathlib import Path
 
 
-def model_topics(n_topics=8, n_iterations=3000):
+def model_topics(n_topics=8, n_iterations=300):
     parent_dir = Path(__file__).parent.parent
     seed = 1921
     
@@ -18,9 +18,9 @@ def model_topics(n_topics=8, n_iterations=3000):
     
     model = LdaMallet(path_to_mallet_binary,
                       corpus=bow_corpus,
-                      num_topics=8,
+                      num_topics=n_topics,
                       id2word=dictionary,
-                      iterations=300,
+                      iterations=n_iterations,
                       random_seed=seed)
     
     def doc_by_topic(vector):
