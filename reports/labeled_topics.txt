@@ -1,8 +1,16 @@
+COMMON NARRATIVES
 (0, '0.007*"man" + 0.006*"eye" + 0.006*"hand" + 0.005*"god" + 0.005*"king" + 0.005*"de" + 0.004*"face" + 0.004*"father" + 0.004*"ha" + 0.004*"day"')
+LANDSCAPE
 (1, '0.006*"day" + 0.005*"ice" + 0.005*"river" + 0.005*"russian" + 0.005*"sea" + 0.004*"time" + 0.004*"water" + 0.004*"snow" + 0.004*"mile" + 0.004*"foot"')
+ROYALTY/EMPIRE
 (2, '0.009*"russia" + 0.007*"russian" + 0.006*"prince" + 0.006*"great" + 0.006*"peter" + 0.005*"time" + 0.005*"emperor" + 0.004*"year" + 0.004*"moscow" + 0.004*"ivan"')
+RELATIONSHIPS
 (3, '0.008*"man" + 0.006*"time" + 0.005*"day" + 0.005*"woman" + 0.005*"hand" + 0.004*"thing" + 0.004*"thought" + 0.004*"good" + 0.004*"life" + 0.004*"room"')
+BOLSHEVISM
 (4, '0.010*"russian" + 0.009*"russia" + 0.008*"government" + 0.007*"ha" + 0.007*"peasant" + 0.006*"people" + 0.006*"work" + 0.005*"time" + 0.004*"bolshevik" + 0.004*"class"')
+FOREIGNERS/JEWS
 (5, '0.008*"jew" + 0.006*"russian" + 0.005*"ha" + 0.005*"year" + 0.004*"jewish" + 0.004*"moskva" + 0.004*"footnote" + 0.004*"khān" + 0.004*"central" + 0.003*"bokhārā"')
+MILITARY/WAR
 (6, '0.012*"russian" + 0.012*"army" + 0.009*"men" + 0.009*"general" + 0.008*"soldier" + 0.008*"officer" + 0.007*"french" + 0.006*"american" + 0.006*"day" + 0.006*"napoleon"')
-(7, '0.007*"russian" + 0.006*"ha" + 0.006*"great" + 0.006*"church" + 0.005*"day" + 0.004*"city" + 0.004*"house" + 0.004*"time" + 0.004*"place" + 0.004*"country"')
+NATIONALITY
+(7, '0.007*"russian" + 0.006*"ha" + 0.006*"great" + 0.006*"church" + 0.005*"day" + 0.004*"city" + 0.004*"house" + 0.004*"time" + 0.004*"place" + 0.004*"country"')a
