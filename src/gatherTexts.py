@@ -29,7 +29,7 @@ def gather_text(era):
     
     
     # the following are all the manually-selected text from pages search term 'Russia', 'Moscow', and 'Soviet'
-    text_IDs = pickle.load(open(parent_dir / 'data/text_ids/IDs_' / era / '.pickle', 'rb'))
+    text_IDs = pickle.load(open(parent_dir / 'data' / 'text_ids' / f'IDs_{era}.pickle', 'rb'))
     
     assert len(text_IDs) == len(set(text_IDs)) # test for no duplicate IDs
     

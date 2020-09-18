@@ -14,8 +14,9 @@ def model_topics(era, n_topics=8, n_iterations=2500):
     seed = 1921
     
     dictionary, bow_corpus, IDs = pickle.load(open(parent_dir / 'data/corpus.pickle', 'rb'))
-    path_to_mallet_binary = parent_dir / 'src//mallet-2.0.8/bin/mallet'
-    
+    # cast posix path to string for gensim connection to mallet
+    path_to_mallet_binary = str(parent_dir / 'src//mallet-2.0.8/bin/mallet')
+
     model = LdaMallet(path_to_mallet_binary,
                       corpus=bow_corpus,
                       num_topics=n_topics,

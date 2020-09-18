@@ -87,7 +87,7 @@ def visualize(era):
     for i in tqdm(range(num_topics), desc="Generating joint plots"):
         topic = f'topic_{i}'
         joint_plot(num_topics, topics_df, era, topic, figure_dir)
-    
+
     # total percentages of corpus by topic
     bar_plot(topics_df, era, figure_dir)
 
@@ -96,5 +96,7 @@ def visualize(era):
 
     print("Visualization complete")
 
+
 if __name__ == "__main__":
-    visualize('20th')
+    test_era = '19th'
+    visualize(test_era)

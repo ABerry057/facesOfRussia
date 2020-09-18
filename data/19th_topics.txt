@@ -1,0 +1,8 @@
+(0, '0.009*"russian" + 0.008*"island" + 0.005*"vo" + 0.005*"sea" + 0.005*"greek" + 0.004*"sidenote" + 0.004*"made" + 0.004*"great" + 0.004*"large" + 0.004*"lady"')
+(1, '0.010*"army" + 0.007*"general" + 0.006*"russian" + 0.004*"force" + 0.004*"great" + 0.004*"persian" + 0.004*"khān" + 0.004*"asia" + 0.004*"soldier" + 0.004*"xenophon"')
+(2, '0.014*"thou" + 0.011*"ivan" + 0.010*"king" + 0.009*"thee" + 0.007*"thy" + 0.007*"peasant" + 0.007*"land" + 0.006*"son" + 0.006*"man" + 0.006*"brother"')
+(3, '0.010*"man" + 0.007*"time" + 0.006*"day" + 0.006*"men" + 0.006*"good" + 0.005*"thing" + 0.005*"thought" + 0.005*"hand" + 0.005*"made" + 0.005*"back"')
+(4, '0.012*"ice" + 0.007*"snow" + 0.007*"land" + 0.007*"sea" + 0.007*"day" + 0.006*"water" + 0.006*"ship" + 0.005*"north" + 0.005*"wind" + 0.005*"sledge"')
+(5, '0.011*"russia" + 0.009*"russian" + 0.005*"prince" + 0.005*"city" + 0.005*"moscow" + 0.005*"great" + 0.005*"army" + 0.005*"year" + 0.005*"war" + 0.005*"thousand"')
+(6, '0.008*"de" + 0.008*"count" + 0.008*"von" + 0.008*"hand" + 0.008*"eye" + 0.007*"king" + 0.006*"majesty" + 0.006*"emperor" + 0.006*"face" + 0.006*"cried"')
+(7, '0.009*"russian" + 0.005*"great" + 0.005*"day" + 0.004*"river" + 0.004*"time" + 0.004*"house" + 0.004*"good" + 0.004*"horse" + 0.004*"country" + 0.004*"hundred"')
