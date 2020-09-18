@@ -8,11 +8,11 @@ from tqdm import tqdm
 from pathlib import Path
 
 
-def uy():
-    parent_dir = Path(__file__).parent.parent
+def utility_year():
+    parent_dir = Path(__file__).parents[1]
 
-    reference_df = pd.read_csv(f'{parent_dir}/data/reference.csv')
-    year_df = pd.read_csv(f'{parent_dir}/data/reference_backup.csv')
+    reference_df = pd.read_csv(parent_dir / 'data/reference.csv')
+    year_df = pd.read_csv(parent_dir / 'data/reference_backup.csv')
 
     year_dict = {}
     for ID in tqdm(year_df['ID'], desc='Getting years from ID'):
@@ -26,5 +26,5 @@ def uy():
             # print(f'Changing date to {year}')
             reference_df.at[row_id, 'date'] = year
 
-    reference_df.to_csv(f'{parent_dir}/data/reference.csv', index=False)
+    reference_df.to_csv(parent_dir / 'data/reference.csv', index=False)
 

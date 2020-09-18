@@ -5,10 +5,10 @@ import pandas as pd
 from pathlib import Path
 import pickle
 
-parent_dir = Path(__file__).parent.parent
-data_dir = f'{parent_dir}/data'
+parent_dir = Path(__file__).parents[1]
+data_dir = parent_dir / 'data'
 
-reference_bdf = pd.read_csv(f'{data_dir}/reference_backup.csv')
+reference_bdf = pd.read_csv(data_dir / 'reference_backup.csv')
 
 text_IDs = [21889,15269,58794,49782,23094,27484,51410,33005,
             21216,16544,12458,10713,33303,2803,39166,24181,26051,
@@ -32,6 +32,6 @@ for ID in text_IDs:
     else:
         IDs_19.append(ID)
 
-pickle.dump(IDs_19, open(f'{data_dir}/IDs_19th.pickle', "wb"))
-pickle.dump(IDs_20, open(f'{data_dir}/IDs_20th.pickle', "wb"))
+pickle.dump(IDs_19, open(data_dir / 'IDs_19th.pickle', "wb"))
+pickle.dump(IDs_20, open(data_dir / 'IDs_20th.pickle', "wb"))
 

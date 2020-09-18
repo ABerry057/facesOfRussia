@@ -13,8 +13,8 @@ import shutil
 import os
 
 
-def gt(era):
-    parent_dir = Path(__file__).parent.parent
+def gather_text(era):
+    parent_dir = Path(__file__).parents[1]
     
     # run the following ONLY ONCE
     from gutenberg.acquire import get_metadata_cache
@@ -29,7 +29,7 @@ def gt(era):
     
     
     # the following are all the manually-selected text from pages search term 'Russia', 'Moscow', and 'Soviet'
-    text_IDs = pickle.load(open(f'{parent_dir}/data/text_ids/IDs_{era}.pickle', 'rb'))
+    text_IDs = pickle.load(open(parent_dir / 'data/text_ids/IDs_' / era / '.pickle', 'rb'))
     
     assert len(text_IDs) == len(set(text_IDs)) # test for no duplicate IDs
     
@@ -52,7 +52,7 @@ def gt(era):
         try:
             ta = next(iter(get_metadata('author', ID)))
         except StopIteration:
-            pass  
+            pass
         td =  "YEAR" # publication year not include in metadata, dummy variable
         tc = strip_headers(load_etext(ID)).strip().replace("\n", " ")
         text_details[ID] = {"title": tt, "author": ta, "date": td}    

@@ -13,7 +13,7 @@ from pathlib import Path
 from nltk.corpus import stopwords
 
 
-def gc():
+def generate_corpus():
     nltk.download('stopwords')  # run once
     
     stop_words = stopwords.words('english')
