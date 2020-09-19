@@ -21,7 +21,7 @@ def joint_plot(num_topics, df, era, topic, save_path):
                        data=df)
     ax.set_axis_labels("Year", f'{topic.capitalize()} Frequency')
     ax.savefig(save_path / 'joint_plots' / f'{era}_{topic}_jointplot.png',
-               dpi=600
+               dpi=300
                )
     del ax
     plt.clf()
@@ -44,19 +44,19 @@ def line_plot(df, era, topics, save_path):
                       )
     ax.set_xlabel("Year")
     ax.set_ylabel(f'Topic Frequency')
-    ax.set_title(f"Topic Frequencies over the {era}-century Portion of the Corpus")
+    ax.set_title(f"Topic Frequencies over the {era}-Century Portion of the Corpus")
     ax.figure.savefig(save_path / 'line_plots' / f'{era}_lineplot.png',
-                      dpi=600
+                      dpi=300
                       )
 
 
-def bar_plot(df, era, save_path):
+def bar_plot(df, era, save_path, custom_labels=False):
     print("Generating bar plot...")
     totals = df.drop(['title', 'ID', 'year'], axis=1).sum(axis=0)
     normalized = totals/totals.sum() * 100
     norm_df = pd.DataFrame(normalized).reset_index()
     norm_df.columns = ['topic', 'percent']
-    plt.figure(figsize=(10, 10))
+    plt.figure(figsize=(12, 15))
     ax = sns.barplot(x=norm_df['topic'],
                      y=norm_df['percent'],
                      )
@@ -70,9 +70,21 @@ def bar_plot(df, era, save_path):
                 ha='center')
     ax.set_xlabel("Topic")
     ax.set_ylabel(f'Percent of Corpus')
+    # custom labels is currently only supported for the Russia corpus
+    if custom_labels:
+        if era == '19th':
+            topic_names = ['Russians in Greece', 'Wars in Central Asia', 'Class System',
+                           'Common Narratives', 'Polar/Siberian Exploration', 'Peter the Great',
+                           'Royalty', 'Nationality'
+                           ]
+        elif era == '20th':
+            topic_names = ['Nationality', 'Landscapes', 'Judaism and Jews', 'Royalty',
+                           'Common Narratives I', 'War', 'Revolution', 'Common Narratives II'
+                           ]
+        ax.set_xticklabels(topic_names, rotation=45, ha='right')
     ax.set_title(f"Topic Composition of the {era}-century Portion of the Corpus")
     ax.figure.savefig(save_path / 'bar_plots' / f'{era}_barplot.png',
-                      dpi=600
+                      dpi=300
                       )
 
 
@@ -89,7 +101,7 @@ def visualize(era):
         joint_plot(num_topics, topics_df, era, topic, figure_dir)
 
     # total percentages of corpus by topic
-    bar_plot(topics_df, era, figure_dir)
+    bar_plot(topics_df, era, figure_dir, True)
 
     # All topic frequencies line chart
     line_plot(topics_df, era, topics, figure_dir)
@@ -98,5 +110,5 @@ def visualize(era):
 
 
 if __name__ == "__main__":
-    test_era = '19th'
+    test_era = '20th'
     visualize(test_era)

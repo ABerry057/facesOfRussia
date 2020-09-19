@@ -9,6 +9,10 @@ from pathlib import Path
 
 
 def utility_year():
+    """Adds years to reference data table that come from
+    manual research to make up for the lack of metadata from
+    Gutenberg API.
+    """
     parent_dir = Path(__file__).parents[1]
 
     reference_df = pd.read_csv(parent_dir / 'data/reference.csv')
