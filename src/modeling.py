@@ -42,21 +42,6 @@ def model_topics(era, n_topics=8, n_iterations=2500):
                       random_seed=seed
                       )
 
-    # def doc_by_topic(vector):
-    #     """Sorts a supplied document vector in-place by the
-
-    #     Parameters
-    #     ----------
-    #     vector : [type]
-    #         [description]
-
-    #     Returns
-    #     -------
-    #     [type]
-    #         [description]
-    #     """
-    #     return sorted(vector, key=lambda x: x[1], reverse=True)
-
     topics_table = {}
     docs = list(model.load_document_topics())
     for i in tqdm(range(len(IDs)), desc='Reading results into dataframe'):
