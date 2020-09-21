@@ -1,0 +1,16 @@
+Nationality
+(0, '0.009*"russian" + 0.008*"russia" + 0.007*"time" + 0.007*"great" + 0.005*"people" + 0.004*"year" + 0.004*"country" + 0.004*"empress" + 0.003*"life" + 0.003*"peasant"')
+Landscapes
+(1, '0.007*"day" + 0.005*"russian" + 0.005*"river" + 0.005*"sea" + 0.005*"snow" + 0.004*"foot" + 0.004*"night" + 0.004*"mile" + 0.004*"long" + 0.004*"water"')
+Judaism and Jews
+(2, '0.013*"russian" + 0.009*"work" + 0.009*"jew" + 0.008*"opera" + 0.006*"music" + 0.006*"life" + 0.006*"jewish" + 0.005*"book" + 0.004*"year" + 0.004*"school"')
+Royalty
+(3, '0.011*"peter" + 0.011*"tsar" + 0.008*"moscow" + 0.007*"church" + 0.007*"russia" + 0.007*"prince" + 0.007*"russian" + 0.006*"great" + 0.005*"king" + 0.005*"son"')
+Common Narratives?
+(4, '0.007*"man" + 0.006*"eye" + 0.005*"hand" + 0.005*"face" + 0.005*"god" + 0.004*"looked" + 0.004*"back" + 0.004*"father" + 0.004*"head" + 0.004*"de"')
+War
+(5, '0.014*"russian" + 0.010*"general" + 0.009*"men" + 0.009*"army" + 0.008*"american" + 0.008*"officer" + 0.007*"french" + 0.007*"soldier" + 0.006*"napoleon" + 0.006*"corp"')
+Revolutions
+(6, '0.013*"government" + 0.011*"russia" + 0.010*"bolshevik" + 0.008*"soviet" + 0.008*"people" + 0.008*"peasant" + 0.007*"russian" + 0.006*"revolution" + 0.006*"socialist" + 0.005*"party"')
+Common Narratives II?
+(7, '0.008*"man" + 0.006*"day" + 0.006*"time" + 0.006*"woman" + 0.005*"room" + 0.004*"thing" + 0.004*"hand" + 0.004*"eye" + 0.004*"good" + 0.004*"thought"')

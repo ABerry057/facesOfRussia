@@ -33,6 +33,7 @@
 
 * [gensim 3.8.0](https://github.com/RaRe-Technologies/gensim)
 * [gutenberg 0.8.0](https://github.com/c-w/gutenberg)
+* [MALLET 2.0.8](http://mallet.cs.umass.edu/topics.php)
 * [matplotlib 3.3.2](https://github.com/matplotlib/matplotlib)
 * [pandas 1.0.1](https://github.com/pandas-dev/pandas)
 * [seaborn 0.11.0](https://github.com/mwaskom/seaborn)
@@ -50,6 +51,8 @@ This will prompt you to choose a specific era to analyze and will then: create t
 This project (and repository) is uses a corpus composed of English-language literature concerning Russia in the 1800s and early 1900s. To use a different corpus, you will need to create a list of text's ID (EBook-No.) from Project Gutenberg and replace the contents of `russia_IDs.txt` with that list. You may also wish to modify that file's name as appropriate.
 
 To split the corpus by a date threshold, you will also need to the publication dates for the corpus through other means (Project Gutenberg does not provide this).
+
+Before running any of the topic modeling scripts, however, make sure to have a copy of MALLET 2.0.8 located in the `src` directory. This is not included in this repository due to storage limitations.
 
 <!-- CONTRIBUTING -->
 ## Contributing
